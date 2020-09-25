@@ -6,7 +6,7 @@ import slugify from "slugify";
 
 export default function Product(props) {
   const itemHash = slugify(JSON.stringify(props.item));
-  // Product
+
   return (
     <div key={itemHash} className="feature__item">
       <input

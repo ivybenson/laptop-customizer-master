@@ -8,7 +8,6 @@ export default function ProductCategory(props) {
     <Product item={item} {...props} />
   ));
 
-  // ProductList
   return (
     <fieldset className="feature" key={featureHash}>
       <legend className="feature__name">
